@@ -19,6 +19,14 @@ This Python script is designed for image classification using a pre-trained deep
 
 ### First-time setup
 
+#### Create the folder containing input images
+
+```bash
+mkdir -p images/input
+```
+
+Then put some images into that folder.
+
 #### Customize the following constants in the main.py script
 
 - `MODEL_PATH`: Path to the pre-trained Keras model file.

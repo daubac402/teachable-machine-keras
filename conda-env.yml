@@ -1,0 +1,9 @@
+name: keras-tf-pillow
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8 
+  - keras
+  - tensorflow
+  - Pillow

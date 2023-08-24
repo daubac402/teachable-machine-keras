@@ -13,7 +13,7 @@ This Python script is designed for image classification using a pre-trained deep
 ## Prerequisites
 
 - Python 3.x
-- Required Python packages: Keras, Pillow (PIL), NumPy
+- Required Python packages: Keras, Pillow (PIL), NumPy or Miniconda to manage them at once
 
 ## Usage
 
@@ -42,8 +42,17 @@ Then put some images into that folder.
 pip install keras tensorflow Pillow
 ```
 
+Or, pretty much convenient way with Miniconda:
+
+```bash
+conda env create -f environment.yml
+```
+
 ### Start the script
 
 ```bash
+# If you use Miniconda, activate the environment first.
+conda activate keras-tf-pillow
+
 python main.py
 ```
